@@ -1,5 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom'
+import {HashLink} from 'react-router-hash-link';
 
 const NavBar = () => {
     return (
@@ -11,10 +12,10 @@ const NavBar = () => {
                 </button>
                 <div className='collapse navbar-collapse justify-content-end align-center' id='main-nav'>
                     <ul className='navbar-nav'>
-                        <li className='nav-item'><a className='nav-link' href="#">Home</a></li>
-                        <li className='nav-item'><a className='nav-link' href="#">Projects</a></li>
-                        <li className='nav-item'><a className='nav-link' href="#">About</a></li>
-                        <li className='nav-item'><a className='nav-link' href="#">Contact</a></li>
+                        {/* <li className='nav-item'><a className='nav-link' href="#">Home</a></li> */}
+                        <li className='nav-item'><HashLink smooth to='/#projects' className='nav-link' href="#">Projects</HashLink></li>
+                        <li className='nav-item'><HashLink smooth to='/#about' className='nav-link' href="#">About</HashLink></li>
+                        <li className='nav-item'><HashLink smooth to='/#contact' className='nav-link' href="#">Contact</HashLink></li>
                     </ul>
 
                 </div>

@@ -6,7 +6,7 @@ const githubIcon = require('./images/github.png');
 
 const Contact = () => {
     return (
-        <section className='darkSection contact'>
+        <section className='darkSection contact' id='contact'>
             <div className='projectsBox contactInfoBox'>
                 <h3 className='siteHeadings'>Contact</h3>
                 <h6>Let's connect</h6>

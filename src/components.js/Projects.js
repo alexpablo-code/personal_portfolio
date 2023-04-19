@@ -5,7 +5,7 @@ const recipeShare = require('./images/recipes_share.jpg')
 
 const Projects = () => {
     return (
-        <section className='projectsSection'>
+        <section className='projectsSection' id='projects' >
             <div className='projectsBox'>
                 <h3 className='siteTitles siteHeadings'>Projects</h3>
                 <div className="projectsContainer">

@@ -3,7 +3,7 @@ const avatar = require('./images/alex_anime.png')
 
 const About = () => {
     return (
-        <section className='darkSection'>
+        <section className='darkSection' id='about'>
             <div className='projectsBox about'>
                 <img src={avatar} alt="avatar" />
                 <div>
