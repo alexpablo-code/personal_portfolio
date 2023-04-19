@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 const NavBar = () => {
     return (
         <header className='nav-background navbar navbar-expand-md bg-dark navbar-dark'>
-            <div className='navBar container-fluid container-md'>
+            <div className='navBar container-fluid px-5'>
                 <Link to={'/'} className='navbar-brand siteLogo'><h1>Alex Pablo</h1></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>

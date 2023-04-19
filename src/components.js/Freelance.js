@@ -5,7 +5,7 @@ const saborCasero = require('./images/sabor_web.jpg')
 
 const Freelance = () => {
     return (
-        <section className='freelanceSection'>
+        <section className='darkSection'>
             <div className='freelanceBox'>
                 <h3 className='siteTitles'>Freelance Projects</h3>
                 <div className='freelanceProjects'>
