@@ -7,7 +7,7 @@ const Freelance = () => {
     return (
         <section className='darkSection'>
             <div className='freelanceBox'>
-                <h3 className='siteTitles'>Freelance Projects</h3>
+                <h3 className='siteTitles siteHeadings '>Freelance Projects</h3>
                 <div className='freelanceProjects'>
                     <div className='freelanceCard'>
                         <img src={taquiza} alt="website image" />

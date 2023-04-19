@@ -119,8 +119,14 @@ code {
   padding: 30px 0;
   text-align: center;
 }
+
+.projectInfo > h4 {
+  color: #00F6AC;
+  margin-top: 15px;
+}
+
 .projectCard > img {
-  width: 80%;
+  width: 60%;
 }
 
 /* FREELANCE SECTION*/
@@ -172,6 +178,41 @@ code {
 
 
 /* CONTACT SECTION */
+.siteHeadings{
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+.siteHeadings::after{
+  content: "";
+  display: block;
+  width: 150px;
+  position: relative;
+  height: 1px;
+  margin-left: 20px;
+  background-color: #027a56;
+}
+
 .contact{
   color: white;
+}
+
+.socialsContainer{
+  text-align: center;
+  margin: 30px 0 0;
+}
+.socialsContainer > img{
+  background-color: #1b8364;
+  margin: 10px;
+  border-radius: 25px;
+  height: 100px;
+}
+
+.socialsContainer > img:hover{
+  background-color: #13ca93;
+}
+
+.footerBox > h6{
+  color: #00F6AC;
+  text-align: center;
 }
