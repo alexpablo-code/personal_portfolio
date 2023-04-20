@@ -13,24 +13,24 @@ const Freelance = () => {
                         <img src={taquiza} alt="website image" />
                         <div>
                             <h6>Taquiza Street</h6>
-                            <p>Taco truck website</p>
-                            <a href='#'>See live site</a>
+                            <p>Taco truck website <br/> <span className='wordpress'>Wordpress / Elementor</span></p>
+                            <a href='https://taquizastreet.com/'>See live site</a>
                         </div>
                     </div>
                     <div className='freelanceCard'>
                         <img src={mezcalitos}  alt="website image" />
                         <div>
                             <h6>Mezcalitos</h6>
-                            <p>Restaurant website</p>
-                            <a href='#'>See live site</a>
+                            <p>Restaurant website <br/> <span className='wordpress'>Wordpress / Elementor</span></p>
+                            <a href='https://mezcalitomex.com/'>See live site</a>
                         </div>
                     </div>
                     <div className='freelanceCard'>
                         <img src={saborCasero}  alt="website image" />
                         <div>
                             <h6>Sabor Casero</h6>
-                            <p>Restaurant website</p>
-                            <a href='#'>See live site</a>
+                            <p>Restaurant website <br/> <span className='wordpress'>Wordpress / Elementor</span></p>
+                            <a href='http://elsabor-casero.com/'>See live site</a>
                         </div>
                     </div>
 

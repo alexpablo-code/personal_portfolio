@@ -56,7 +56,7 @@ code {
 }
 
 .heroRight > figure > img{
-  height: 300px;
+  width: 300px;
   border-radius: 100px; 
 }
 
@@ -128,6 +128,19 @@ code {
 .projectCard > img {
   width: 60%;
 }
+.projectIcons{
+  margin-top: 15px;
+}
+.projectIcons > img{
+  background-color: #027a56;
+  border-radius: 50%;
+  width: 40px;
+  margin: 0 8px;
+}
+
+.projectIcons > img:hover{
+  background-color: #13ca93;
+}
 
 /* FREELANCE SECTION*/
 
@@ -168,6 +181,10 @@ code {
 
 .freelanceCard > div > h6{
   color: #00F6AC;
+}
+.wordpress{
+  color: rgb(133, 131, 131);
+  font-weight: bold;
 }
 
 /* ABOUT SECTION */

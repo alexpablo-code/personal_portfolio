@@ -8,7 +8,7 @@ const Hero = () => {
             <div className="heroContainer">
                 <div className='heroWords'>
                     <h2 className='text-white'>Full Stack Software Developer</h2>
-                    <p className='text-white'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p className='text-white'>Welcome to my portfolio! I'm a passionate and dedicated web developer, always seeking new challenges and opportunities to expand my knowledge and skills in the field.</p>
                     <Link to={'#'} className='btn btn-dark'>My Work</Link>
                 </div>
                 <div className='heroRight'>
