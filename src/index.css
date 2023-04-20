@@ -17,6 +17,18 @@ code {
     monospace;
 }
 
+/* Media Queries Syntax: 
+@media media type and (condition: breakpoint){
+  css rules
+} */
+/* @media screen and (min-width: 481px){
+  /* min-width is used because we build for mobile first, design for smallest to largest, starting with min-width */
+  /* rules in here will execute when we go over the breakpoint in condition */
+  /* .heroContainer{
+    width: 90%;
+  } */
+
+
 .nav-background{
   background-color: darkgray;
 }
@@ -31,10 +43,12 @@ code {
   width: 100%;
   /* background: rgb(12,150,53); */
   background: linear-gradient(90deg, rgba(12,150,53,1) 0%, rgba(10,179,147,1) 36%, rgba(0,246,172,1) 100%);
-  height: 60vh;
+  height: auto;
   display: flex;
   justify-content: center;
+  padding: 20px 0;
 }
+
 
 .heroContainer{
   width: 90%;
@@ -43,6 +57,7 @@ code {
   grid-gap: 1rem;
   padding: 20px 0;
 }
+
 
 .heroWords{
   margin:auto 2rem;
@@ -97,7 +112,7 @@ code {
 .toolsGrid > h6{
   color: black;
   background-color: #00F6AC;
-  margin: 5px 15px;
+  margin: 15px;
   border-radius: 5px;
 }
 
@@ -153,7 +168,7 @@ code {
 .freelanceProjects{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  grid-gap: 1rem;
+  grid-gap: 2rem;
   margin-top: 30px;
 }
 
@@ -191,6 +206,9 @@ code {
 .about{
   color: white;
   text-align: center;
+}
+.about > img{
+  margin-bottom: 20px;
 }
 
 
@@ -232,4 +250,34 @@ code {
 .footerBox > h6{
   color: #00F6AC;
   text-align: center;
+}
+
+@media screen and (max-width: 481px){
+  .hero{
+    height: auto;
+    background: linear-gradient(135deg, rgba(12,150,53,1) 0%, rgba(10,179,147,1) 36%, rgba(0,246,172,1) 100%);
+  }
+  .heroContainer{
+    grid-template-columns: 1fr;
+    grid-gap: 3rem;
+  }
+  .heroWords{
+    margin-top: 20px;
+    text-align: center;
+  }
+  .heroRight > figure > img{
+    width: 175px;
+  }
+  .about > img{
+    width: 200px;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .heroContainer{
+    width: 70%;
+  }
+  .projectCard > img {
+    width: 45%;
+  }
 }
