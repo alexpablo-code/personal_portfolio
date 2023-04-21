@@ -1,7 +1,7 @@
 import {useState} from 'react';
 
 const Tools = () => {
-    const [tools, setTools] = useState(['Javascript', 'Python', 'HTML', 'CSS', 'React.js', 'Express.js', 'Bootstrap', 'MongoDB', 'MySQL', 'Git', 'Github']);
+    const [tools, setTools] = useState(['Javascript', 'Python', 'HTML', 'CSS', 'React.js', 'Express.js', 'Bootstrap', 'MongoDB', 'MySQL', 'Git', 'Github', 'Wordpress']);
 
 
     return (
@@ -11,7 +11,9 @@ const Tools = () => {
                 <div className='toolsGrid'>
                     {
                         tools.map(tool => (
-                            <h6>{tool}</h6>
+                            <div className="toolsPill">
+                                <h6>{tool}</h6>
+                            </div>
                         ))
                     }
 

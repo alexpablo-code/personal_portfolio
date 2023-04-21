@@ -43,6 +43,7 @@ code {
   width: 100%;
   /* background: rgb(12,150,53); */
   background: linear-gradient(90deg, rgba(12,150,53,1) 0%, rgba(10,179,147,1) 36%, rgba(0,246,172,1) 100%);
+  box-shadow: inset 0 0 0 100vw rgba(0,0,0,0.2);
   height: auto;
   display: flex;
   justify-content: center;
@@ -61,6 +62,11 @@ code {
 
 .heroWords{
   margin:auto 2rem;
+  width: 70%;
+}
+
+.heroWords > p{
+  margin: 10px 0 35px;
 }
 
 .heroRight{
@@ -106,14 +112,19 @@ code {
 .toolsGrid{
   display: grid;
   justify-content: center;
+  justify-items: center;
   grid-template-columns: repeat(auto-fit, minmax(200px, 50px));
 }
 
-.toolsGrid > h6{
+.toolsGrid > .toolsPill > h6{
   color: black;
   background-color: #00F6AC;
+  /* font-size: larger; */
+  /* font-weight: bold; */
   margin: 15px;
   border-radius: 5px;
+  padding: 10px 0;
+  width: 150px;
 }
 
 /* PROJECTS SECTION*/
@@ -131,17 +142,31 @@ code {
 
 .projectCard{
   color: white;
-  padding: 30px 0;
+  padding: 0px 0;
   text-align: center;
+  background-color: #71817c;
+  border: solid 2px lightgray;
+  border-radius: 30px;
+  overflow: hidden;
+  max-width: 600px;
+  margin: 0 auto 50px;
+  padding-bottom: 20px;
 }
 
+
+.projectInfo > p {
+  width: 70%;
+  margin: 0 auto 20px;
+  text-align: start;
+}
 .projectInfo > h4 {
   color: #00F6AC;
   margin-top: 15px;
 }
 
 .projectCard > img {
-  width: 60%;
+  width: 100%;
+  
 }
 .projectIcons{
   margin-top: 15px;
@@ -217,6 +242,7 @@ code {
   display: flex;
   align-items: center;
   padding: 20px 0;
+  font-size: 40px;
 }
 .siteHeadings::after{
   content: "";
@@ -274,10 +300,30 @@ code {
 }
 
 @media screen and (min-width: 992px){
+  .hero{
+    padding: 100px 0;
+  }
   .heroContainer{
     width: 70%;
   }
   .projectCard > img {
-    width: 45%;
+    /* width: 45%; */
+  }
+  .toolsSection{
+    padding: 150px 0;
+  }
+  .toolsGrid{
+    margin: 30px 0;
+  }
+  .about > img{
+    margin-bottom: 45px;
+  }
+  .aboutSummary{
+    width: 60%;
+    margin: auto;
+    text-align: start;
+  }
+  .contactInfoBox > p {
+    width: 40%;
   }
 }
