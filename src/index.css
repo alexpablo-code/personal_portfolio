@@ -62,7 +62,7 @@ code {
 
 
 .heroWords{
-  margin:auto 2rem;
+  margin:auto;
   width: 70%;
   font-size: 18px;
 }
@@ -316,6 +316,9 @@ code {
   }
   .heroContainer{
     width: 70%;
+  }
+  .heroWords{
+    margin: auto 0px;
   }
   .heroWords > h2{
     font-size: 45px;
