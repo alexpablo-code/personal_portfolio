@@ -2,6 +2,7 @@ import React from 'react';
 const mezcalitos = require('./images/mezcalitos_web.jpg');
 const taquiza = require('./images/taquiza_web.jpg');
 const saborCasero = require('./images/sabor_web.jpg')
+const websiteIcon = require('./images/website.png')
 
 const Freelance = () => {
     return (
@@ -14,7 +15,9 @@ const Freelance = () => {
                         <div>
                             <h6>Taquiza Street</h6>
                             <p>Taco truck website <br/> <span className='wordpress'>Wordpress / Elementor</span></p>
-                            <a href='https://taquizastreet.com/'>See live site</a>
+                            <div className='projectIcons'>
+                                <img src={websiteIcon} onClick={() => window.open('https://taquizastreet.com/')} alt="web icon" />
+                            </div>
                         </div>
                     </div>
                     <div className='freelanceCard'>
@@ -22,7 +25,9 @@ const Freelance = () => {
                         <div>
                             <h6>Mezcalitos</h6>
                             <p>Restaurant website <br/> <span className='wordpress'>Wordpress / Elementor</span></p>
-                            <a href='https://mezcalitomex.com/'>See live site</a>
+                            <div className='projectIcons'>
+                                <img src={websiteIcon} onClick={() => window.open('https://taquizastreet.com/')} alt="web icon" />
+                            </div>
                         </div>
                     </div>
                     <div className='freelanceCard'>
@@ -30,7 +35,9 @@ const Freelance = () => {
                         <div>
                             <h6>Sabor Casero</h6>
                             <p>Restaurant website <br/> <span className='wordpress'>Wordpress / Elementor</span></p>
-                            <a href='http://elsabor-casero.com/'>See live site</a>
+                            <div className='projectIcons'>
+                                <img src={websiteIcon} onClick={() => window.open('https://taquizastreet.com/')} alt="web icon" />
+                            </div>
                         </div>
                     </div>
 

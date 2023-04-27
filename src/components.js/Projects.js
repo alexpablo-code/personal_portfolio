@@ -42,7 +42,7 @@ const Projects = () => {
                         <img src={recipeShare} alt="taquiza project image" />
                         <div className='projectInfo'>
                             <h4>Recipe Share</h4>
-                            <p>Recipe sharing application</p>
+                            <p className='text-center'>Recipe sharing application</p>
                             <div className="projectsTech">
                                 <h6>Python | Flask | MySQL</h6>
                                 <div className='projectIcons'>

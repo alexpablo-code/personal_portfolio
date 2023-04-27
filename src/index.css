@@ -1,6 +1,7 @@
 *{
   margin: 0;
   padding: 0;
+  /* font-size: 20px; */
 }
 
 body {
@@ -63,6 +64,7 @@ code {
 .heroWords{
   margin:auto 2rem;
   width: 70%;
+  font-size: 18px;
 }
 
 .heroWords > p{
@@ -151,6 +153,7 @@ code {
   max-width: 600px;
   margin: 0 auto 50px;
   padding-bottom: 20px;
+  font-size: 18px;
 }
 
 
@@ -172,14 +175,18 @@ code {
   margin-top: 15px;
 }
 .projectIcons > img{
-  background-color: #027a56;
+  background-color: #08bb85;
   border-radius: 50%;
   width: 40px;
   margin: 0 8px;
+  cursor: pointer;
+  
 }
 
 .projectIcons > img:hover{
-  background-color: #13ca93;
+  background-color: #0ee9a7;
+  box-shadow: rgba(0, 0, 0, 0.22) 0px 19px 43px;
+  transform: translate3d(0px, -2px, 0px);
 }
 
 /* FREELANCE SECTION*/
@@ -231,6 +238,7 @@ code {
 .about{
   color: white;
   text-align: center;
+  font-size: 18px;
 }
 .about > img{
   margin-bottom: 20px;
@@ -256,6 +264,7 @@ code {
 
 .contact{
   color: white;
+  font-size: 18px;
 }
 
 .socialsContainer{
@@ -263,14 +272,16 @@ code {
   margin: 30px 0 0;
 }
 .socialsContainer > img{
-  background-color: #1b8364;
+  background-color: #1ab888;
   margin: 10px;
-  border-radius: 25px;
-  height: 100px;
+  border-radius: 10px;
+  height: 50px;
 }
 
 .socialsContainer > img:hover{
-  background-color: #13ca93;
+  background-color: #16f5b2;
+  cursor: pointer;
+  transform: translate3d(0px, -2px, 0px);
 }
 
 .footerBox > h6{
@@ -305,6 +316,12 @@ code {
   }
   .heroContainer{
     width: 70%;
+  }
+  .heroWords > h2{
+    font-size: 45px;
+  }
+  .heroWords > p{
+    font-size: 22px;
   }
   .projectCard > img {
     /* width: 45%; */
